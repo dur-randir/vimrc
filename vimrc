@@ -18,6 +18,12 @@ set expandtab
 "set listchars=tab:→\ ,trail:·
 set listchars=tab:├┈,trail:·
 
+set incsearch
+set hlsearch
+nnoremap <F3> :let @/ = ""<CR>
+"nnoremap <F2> :set paste!<CR>
+
+set clipboard=unnamed
 set scrolloff=3
 set autoindent
 set showmode
