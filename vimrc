@@ -91,3 +91,8 @@ au BufNewFile,BufRead *.swg set filetype=swig
 
 " Attach *.bsh files (BeanShell) to java filetype (because it is java ;-)
 au BufNewFile,BufRead *.bsh set filetype=java
+
+" reopen files at last position
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
