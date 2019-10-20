@@ -7,6 +7,10 @@ set nocompatible
 set dir=~/.vimswap//,/var/tmp//,/tmp//,.
 set undodir=~/.vimswap//,/var/tmp//,/tmp//,.
 
+set modelines=0
+set nomodeline
+set mouse-=a
+set nowrap
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
