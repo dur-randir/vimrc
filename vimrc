@@ -15,7 +15,6 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
-"set listchars=tab:→\ ,trail:·
 set listchars=tab:├┈,trail:·
 
 set incsearch
